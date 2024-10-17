@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PlayerPanel" src="project://database/Assets/UI/Template/PlayerPanel.uxml?fileID=9197481963319205126&amp;guid=34c3defaf129cd243859f5abcc5826aa&amp;type=3#PlayerPanel" />
+    <Style src="project://database/Assets/UI/activePlayer.uss?fileID=7433441132597879392&amp;guid=cd030bd5a829d304eb5b999adf8ab6c7&amp;type=3#activePlayer" />
+    <ui:Instance template="PlayerPanel" name="PlayerPanelWhite" class="activePlayer" style="width: 400px; height: 200px; margin-top: 40px; margin-right: 40px; margin-bottom: 40px; margin-left: 40px;">
+        <AttributeOverrides element-name="Score" text="Score: 3" display-tooltip-when-elided="false" />
+    </ui:Instance>
+    <ui:Instance template="PlayerPanel" name="PlayerPanelBlack" style="width: 400px; height: 200px; margin-top: 40px; margin-right: 40px; margin-bottom: 40px; margin-left: 40px; align-items: stretch; align-self: flex-end; flex-direction: column; justify-content: space-between; top: -277px; position: relative; left: 0;">
+        <AttributeOverrides element-name="PlayerColor" text="Black" />
+        <AttributeOverrides element-name="Score" text="Score: 4 " parse-escape-sequences="false" />
+    </ui:Instance>
+</ui:UXML>

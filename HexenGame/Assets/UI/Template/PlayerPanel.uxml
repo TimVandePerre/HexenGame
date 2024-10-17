@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="PlayerPanel" style="flex-grow: 1; width: auto; background-color: rgb(137, 137, 137); font-size: 24px; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:Label tabindex="-1" text="White" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerColor" style="color: rgb(255, 255, 255); -unity-text-align: upper-center; font-size: 60px; -unity-font-style: bold; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=6fca900d56e354e49b4f27e903300d63&amp;type=3#NotInter-Regular&apos;);" />
+        <ui:Label tabindex="-1" text="Score: " parse-escape-sequences="false" display-tooltip-when-elided="true" name="Score" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 40%; margin-top: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>

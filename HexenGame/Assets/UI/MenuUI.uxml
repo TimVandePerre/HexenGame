@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Button.uss?fileID=7433441132597879392&amp;guid=13084845c3df71344a29cd0ddd1ee90f&amp;type=3#Button" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(57, 128, 135, 0.5); -unity-background-scale-mode: scale-and-crop; border-top-left-radius: 179px; border-top-right-radius: 179px; border-bottom-right-radius: 179px; border-bottom-left-radius: 179px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 5%; margin-right: 20%; margin-bottom: 5%; margin-left: 20%; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px;">
+        <ui:Label tabindex="-1" text="Hexen" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 90%; -unity-font-style: bold; color: rgb(87, 54, 54); top: 47px;" />
+        <ui:Button text="New Game" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="NewGameButton" class="Button button-style" style="top: 25%; font-size: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

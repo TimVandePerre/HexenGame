@@ -1,0 +1,16 @@
+{
+    "name": "HexenModel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:deda30fb04070c046ade2febd927e958"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

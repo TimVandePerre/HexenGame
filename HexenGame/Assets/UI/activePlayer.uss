@@ -1,0 +1,10 @@
+.activePlayer {
+    border-left-color: rgb(63, 255, 0);
+    border-right-color: rgb(63, 255, 0);
+    border-top-color: rgb(63, 255, 0);
+    border-bottom-color: rgb(63, 255, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}

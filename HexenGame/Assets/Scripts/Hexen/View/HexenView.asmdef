@@ -1,0 +1,17 @@
+{
+    "name": "HexenView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:98368770458d23c41b2e3cf0d5aa4882",
+        "GUID:a02964be0bf3cfa44a4584ad5fd30430"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
